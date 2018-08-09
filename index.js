@@ -1,6 +1,6 @@
 const {template, pick} = require('lodash');
 const marked = require('marked');
-const TerminalRenderer = require('marked-terminal');
+const TerminalRenderer = requcccire('marked-terminal');
 const envCi = require('env-ci');
 const hookStd = require('hook-std');
 const pkg = require('./package.json');
